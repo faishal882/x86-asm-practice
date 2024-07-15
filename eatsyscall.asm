@@ -1,11 +1,11 @@
 ; Executable name : EATSYSCALL
 ; Version : 1.0
-; Created date : 1/7/2009
-; Last update : 1/7/2009
-; Author : Jeff Duntemann
+; Created date : 15/7/2024
+; Last update : 15/7/2024
+; Author : Faishal Manzar
 ; Description : A simple assembly app for Linux, using NASM 2.05,
 ;                demonstrating the use of Linux INT 80H syscalls
-;                to display text.
+;                to display text.(Practice program from jeff Duntemann)
 ; Build using these commands:
 ; nasm -f elf -g -F stabs eatsyscall.asm
 ; ld -o eatsyscall eatsyscall.o
