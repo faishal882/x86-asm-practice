@@ -101,3 +101,7 @@ _start:
         mov eax,1
         mov ebx,0
         int 80H
+
+
+; EXTRA TASK: rewrite showargs2.asm so that instead of displaying the program’s
+;             command-line arguments, it displays the full list of Linux environment vari-ables.
