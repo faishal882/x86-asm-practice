@@ -5,7 +5,7 @@
 ; Last update     : 26/8/2024
 ; Author          : Faishal Manzar
 ; Description     : Demonstrates calls made into glibc, using NASM 2.05
-;                   to send a short text string to stdout with puts().
+;                   to send a short text string to stdout with puts().(Practice program from jeff Duntemann)
 ; Build using these commands:
 ;   nasm -f elf -g -F stabs eatclib.asm
 ;   gcc eatclib.o -o boiler
